@@ -11,6 +11,15 @@ const jetBrainsMono = JetBrains_Mono({
   variable: '--font-jetBrainsMono'
 })
 
+export const metadata = {
+  title: 'Dev. Hitesh',
+  description: 'Hitesh Solanki, Web Developer at W3nuts with expertise in WordPress, Laravel, and Core PHP. Creating dynamic and user-friendly websites since 2017.',
+  icons: {
+    apple: '/apple-touch-icon.png', // Optional: Path to apple touch icon
+    shortcut: '/favicon-32x32.png', // Optional: Path to a shortcut icon
+  },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

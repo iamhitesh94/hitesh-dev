@@ -16,10 +16,10 @@ export default function Home() {
               Hello I&apos;m<br />
               <span className="text-accent">Hitesh Solanki</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p className="max-w-[500px] mb-9 text-white/80">Hi, I&apos;m a passionate Web Developer at W3nuts. I specialize in crafting seamless digital experiences using WordPress, Laravel, and Core PHP. With over 6 years of experience, I transform ideas into interactive and efficient web solutions..</p>
 
             <div className="hier-social-btns flex flex-col xl:flex-row items-center gap-2">
-              <Link href="/contact" className="mb-5 xl:mb-0">
+              <Link href="mailto:iamhitesh3@gmail.com" className="mb-5 xl:mb-0">
                 <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
                   <FaHandPointRight className="mr-1" />
                   <span>Hire me</span>
