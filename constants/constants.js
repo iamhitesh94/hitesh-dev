@@ -4,7 +4,7 @@ export const menulinks = [
         'title': "Home",
         'path': '/',
     },
-    {
+    /*{
         'title': "Services",
         'path': '/services',
     },
@@ -19,7 +19,7 @@ export const menulinks = [
     {
         'title': "Contact",
         'path': '/contact',
-    },
+    },*/
 ]
 
 export const socialLinks = [
