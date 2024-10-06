@@ -1,5 +1,6 @@
 import Photo from "@/components/Photo";
 import Social from "@/components/Social";
+import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { FaHandPointRight } from "react-icons/fa";
@@ -16,7 +17,7 @@ export default function Home() {
               Hello I&apos;m<br />
               <span className="text-accent">Hitesh Solanki</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">Hi, I&apos;m a passionate Web Developer at W3nuts. I specialize in crafting seamless digital experiences using WordPress, Laravel, and Core PHP. With over 6 years of experience, I transform ideas into interactive and efficient web solutions..</p>
+            <p className="max-w-[500px] mb-9 text-white/80">Hi, I&apos;m a passionate Web Developer at W3nuts. I specialize in crafting seamless digital experiences using WordPress, Laravel, and Core PHP. With over 6 years of experience, I transform ideas into interactive and efficient web solutions.</p>
 
             <div className="hier-social-btns flex flex-col xl:flex-row items-center gap-2">
               <Link href="mailto:iamhitesh3@gmail.com" className="mb-5 xl:mb-0">
@@ -36,6 +37,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   );
 }
